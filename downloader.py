@@ -10,4 +10,26 @@ ctx = ClientContext(site_url).with_credentials(
 web = ctx.web
 ctx.load(web)
 ctx.execute_query()
-print("Web title: {0}".format(web.properties['Title']))
+
+
+root = ctx.web.get_folder_by_server_relative_url(
+    'Sdilene dokumenty/General/Recordings')
+ctx.load(root)
+ctx.execute_query()
+
+
+folders = root.folders
+ctx.load(folders)
+ctx.execute_query()
+
+print("Folders:")
+for folder in folders:
+    print(folder.properties["ServerRelativeUrl"])
+
+
+print("Files:")
+files = root.files
+ctx.load(files)
+ctx.execute_query()
+for file in files:
+    print(file.properties["ServerRelativeUrl"])
