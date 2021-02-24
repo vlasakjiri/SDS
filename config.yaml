@@ -1,0 +1,14 @@
+- name: IPK #name of the section
+  path: IPK #path to folder where VODs should be downloaded
+  folder_relative_url: Sdilene dokumenty/General/Recordings/
+  site_url: https://vutbr.sharepoint.com/sites/IPK2020L/
+
+- name: ICS #name of the section
+  path: ICS #path to folder where VODs should be downloaded
+  folder_relative_url: Sdilene dokumenty/General/Recordings/
+  site_url: https://vutbr.sharepoint.com/sites/ICS-2021/
+
+- name: IZU #name of the section
+  path: IZU #path to folder where VODs should be downloaded
+  folder_relative_url: Sdilene dokumenty/Přednášky - úterý od 13 hodin/Recordings/
+  site_url: https://vutbr.sharepoint.com/sites/IZU/
