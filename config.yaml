@@ -1,7 +1,7 @@
 - name: IPK #name of the section
   path: IPK #path to folder where VODs should be downloaded
-  folder_relative_url: Sdilene dokumenty/General/Recordings/
-  site_url: https://vutbr.sharepoint.com/sites/IPK2020L/
+  folder_relative_url: Sdilene dokumenty/General/Recordings/ #relative path to folder you want to download
+  site_url: https://vutbr.sharepoint.com/sites/IPK2020L/  #url of the site
 
 - name: ICS #name of the section
   path: ICS #path to folder where VODs should be downloaded
